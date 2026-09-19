@@ -1,3 +1,4 @@
+# syntax=docker/dockerfile:1
 # ── Common base with runtime deps ──────────────────────────────────────────
 FROM node:26-trixie-slim AS base
 WORKDIR /app
